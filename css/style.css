@@ -28,7 +28,8 @@ nav ul{
     display: flex;
     width: 80%;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 nav a{

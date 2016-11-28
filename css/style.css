@@ -1,1 +1,85 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+body{
+    margin: 0px;
+    width: 100%;
+    background-color: #2D7560;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+
+.header h1{
+    color: #BAF0B1;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.header h4{
+    color: #FAF7F0;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FAF7F0;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: #BAF0B1;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    display: flex;
+}
+
+.box{
+    color: #2D7560;
+}
+
+.footer{
+    background-color: #2D7560;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_footer{
+    min-width: 500px;
+}
+
+.contacts{
+    min-width: 200px;
+}
+
+.contacts img{
+    margin: 0 10px;
+}
+
+.footer h5{
+    color: #BAF0B1;
+}
+
+.footer p{
+    color: #FAF7F0;
+}
+
+.footer p span{
+    color: red;
+    font-size: 20px;
+}
